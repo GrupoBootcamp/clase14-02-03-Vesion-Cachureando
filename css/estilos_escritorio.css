@@ -1,0 +1,91 @@
+body{
+
+    background-color: red;
+}
+
+.img-container{
+    display:grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagen1{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(221, 207, 9);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: center;
+    flex-grow: 2;
+    margin:0;
+
+}
+
+.imagen2{
+    flex-grow: 2;
+    width:180px;
+    height:180px;
+    background-color: rgb(9, 23, 221);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-self: center;
+    margin:0;
+
+}
+
+.imagen3{
+
+    width:180px;
+    height:180px;
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+    justify-self: center;
+    background-color: rgb(207, 94, 179);
+    background-image: url('/img/figuritas.jpg');
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin:0;
+}
+
+.imagen4{
+    flex-grow: 2;
+    width:180px;
+    height:180px;
+    background-color: rgb(152, 68, 155);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    justify-self: center;
+    
+}
+
+.imagen5{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(87, 243, 243);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    justify-self: center;
+}
+
+.imagen6{
+
+    width:180px;
+    height:180px;
+    display:none;
+    background-color: rgb(87, 243, 243);
+    background-image: url('/img/maquillaje.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    
+}

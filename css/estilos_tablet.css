@@ -1,0 +1,83 @@
+body{
+
+    background-color: rgb(145, 92, 24);
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.imagen1{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(221, 207, 9);
+    background-image: url('/img/airpod.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin:0;
+
+}
+
+.imagen2{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(9, 23, 221);
+    background-image: url('/img/computador.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin:0;
+
+}
+
+.imagen3{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(207, 94, 179);
+    background-image: url('/img/figuritas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin:0;
+}
+
+.imagen4{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(87, 243, 243);
+    background-image: url('/img/play.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    
+}
+
+.imagen5{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(87, 243, 243);
+    background-image: url('/img/pelota.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    
+}
+
+.imagen6{
+
+    width:180px;
+    height:180px;
+    background-color: rgb(87, 243, 243);
+    background-image: url('/img/maquillaje.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    
+}

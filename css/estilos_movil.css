@@ -1,0 +1,39 @@
+body{
+
+    background-color: rgb(92, 45, 180);
+}
+
+.imagen1{
+
+    width:80%;
+    height:3rem;
+    background-color: rgb(221, 207, 9);
+    margin:0 auto;
+
+}
+
+.imagen2{
+
+    width:80%;
+    height:3rem;
+    background-color: rgb(9, 23, 221);
+    margin:0 auto;
+
+}
+
+.imagen3{
+
+    width:80%;
+    height:3rem;
+    background-color: rgb(207, 94, 179);
+    margin:0 auto;
+}
+
+.imagen4{
+
+    width:80%;
+    height:3rem;
+    background-color: rgb(87, 243, 243);
+    margin:0 auto;
+    
+}
